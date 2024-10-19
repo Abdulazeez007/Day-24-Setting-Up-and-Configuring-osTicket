@@ -16,7 +16,7 @@ To start, head over to Vultr and log in to your account. Follow these steps to d
 - **Operating System:** Select **Windows Standard 2022**.
 - **Plan:** Use the default plan, which includes 55 GB SSD, 1 vCPU, 2 GB RAM, and 55 GB storage.
 - **Extras:** Unselect Auto Backup and IPv6, but enable Virtual Private Cloud 2.0.
-- **Name Your Server:** I named mine **Phoenix-osTicket**, but you can choose your own.
+- **Name Your Server:** I named mine **Aurora-osTicket**, but you can choose your own.
 - **Deploy:** Click **Deploy Server** and wait for your server to start running.
 
 Once the server is up, you’ll need to Remote Desktop Protocol (RDP) into the machine. Copy the username and password provided, and log in to your new server.
@@ -27,7 +27,7 @@ Before we proceed, it’s essential to secure your server since it will host a w
 
 ### Go to Firewall Settings:
 1. Navigate to **Settings** and then select **Firewall**.
-2. I used the **Phoenix-SOC-Challenge** firewall.
+2. I used the **Aurora-SOC-Challenge** firewall.
 
 **Why Set Up a Firewall?** The firewall ensures that only authorized users can access your ticketing system, preventing unauthorized traffic from accessing the web server.
 
@@ -89,7 +89,7 @@ Now that your web server is ready, it’s time to install osTicket.
 During the setup, you may see warnings about missing extensions like GDlib or PHP Imap. For this challenge, these extensions aren’t necessary, so you can safely ignore the warnings and proceed with the installation.
 
 ### Configure osTicket:
-- Set up your Help Desk Name (e.g., **Phoenix Support**).
+- Set up your Help Desk Name (e.g., **Aurora Support**).
 - Fill in your default email, admin name, and other relevant details.
 
 ## Step 6: Create and Configure the Database
@@ -97,7 +97,7 @@ During the setup, you may see warnings about missing extensions like GDlib or PH
 Before completing the osTicket installation, we need to create a MySQL database:
 
 ### Create the Database in phpMyAdmin:
-1. Go to phpMyAdmin, click **New**, and create a database named **Phoenix-30-Day-DB**.
+1. Go to phpMyAdmin, click **New**, and create a database named **Aurora-30-Day-DB**.
 
 ### Grant Privileges:
 1. Navigate to **User Accounts** and select the **root user**.
