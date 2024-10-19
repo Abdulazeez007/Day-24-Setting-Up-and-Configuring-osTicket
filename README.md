@@ -43,6 +43,8 @@ We need a web server to host osTicket. For this, we’ll use XAMPP, which is an 
 1. Run the installer and keep all settings as default. Click **Next** until the installation is complete.
 2. Once installed, open the **XAMPP Control Panel**.
 
+   ![Alt text](https://raw.githubusercontent.com/Virus192/Day-24-Setting-Up-and-Configuring-osTicket/refs/heads/main/Images/1.jpg)
+
 ## Step 4: Configure XAMPP for osTicket
 
 With XAMPP installed, we now need to configure it for osTicket.
@@ -105,6 +107,8 @@ Before completing the osTicket installation, we need to create a MySQL database:
 1. Return to the osTicket setup page and fill in the database details (DB name, root username, and password).
 2. Click **Install** and wait for the process to complete.
 
+![Alt text](https://raw.githubusercontent.com/Virus192/Day-24-Setting-Up-and-Configuring-osTicket/refs/heads/main/Images/photo_6028481256070693558_w.jpg)
+
 ## Step 7: Final Configurations
 
 Once osTicket is installed, you’ll need to finalize a few settings:
@@ -117,6 +121,8 @@ Once osTicket is installed, you’ll need to finalize a few settings:
    icacls .\ost-config.php /reset
 
 You should see a success message.
+
+![Alt text](https://raw.githubusercontent.com/Virus192/Day-24-Setting-Up-and-Configuring-osTicket/refs/heads/main/Images/photo_6028481256070693561_w.jpg)
 
 ### Access osTicket Admin Panel:
 1. Copy the **Staff Control Panel** URL and open it in your browser.
